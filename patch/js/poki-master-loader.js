@@ -29,7 +29,7 @@ if (!window.config.unityWebglLoaderUrl) {
     }
 }
 var sdkScript = document.createElement("script");
-sdkScript.src = "js/poki-sdk.js",
+sdkScript.src = "patch/js/poki-sdk-v2.js",
 sdkScript.onload = function() {
     var i = document.createElement("script");
     i.src = root + loader,
